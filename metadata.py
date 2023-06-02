@@ -15,7 +15,8 @@ model_loc = model.model_path
 meta_data= {'local_csv':file_loc , 'model_loc' : file_loc , 
        'model_results':results , 'taget_col':taget_col}
 
-
+# username :- mohammedisrar84
+# password :- Boojaana786
 
 client = MongoClient("mongodb+srv://mohammedisrar84:Boojaana786@cluster0.3rt4bqh.mongodb.net/")
 db = client.get_database('clair_db')

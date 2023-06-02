@@ -2,13 +2,14 @@
 
 - In the current project given below variables are hard coded:-
 
-1. model_results --> the results of the ML component
+1. model_results --> the results of the ML component because indepth data was not provided. 
 2. model_path --> because the ML model was not saved due to less information of the type of data to build a proper model
 3. file_loc --> Currently the file location is static, Later we can make it dynamic
 3. target_col --> By default the column is set as taget_col to differentiate later we can make the column dynamic
 
 
-- The inserted record is printed as well as a local host is created, Click on the host to view the recods insereted in the mongo DB
+- The inserted record is printed in the terminal as well as a displayed in the local host deployment server, 
+   Click on the host to view the recods inserted in the mongo DB
 
 
 - Avoid turning on the debug mode in the Flask, the mongo DB currently has less memory

@@ -1,8 +1,7 @@
 import model
 from pymongo import MongoClient
 import env_files
-import json
-from bson import ObjectId
+
 
 
 file_loc = env_files.file_loc

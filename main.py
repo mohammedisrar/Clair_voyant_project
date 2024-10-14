@@ -13,3 +13,5 @@ def func_1():
 if __name__ == "__main__":
     app.run()
     # hello world
+
+    # Changing the syntax
